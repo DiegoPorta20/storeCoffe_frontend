@@ -1,9 +1,12 @@
 import './App.css';
+import NavBar from './components/navBar';
+import Container from './components/container';
 
 function App() {
   return (
     <div>
-      <h1>Hi React</h1>
+      <NavBar></NavBar>
+      <Container></Container>
     </div>
   );
 }
