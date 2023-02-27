@@ -3,10 +3,11 @@ import Menu from "./menu"
 import Resumen from "./resumen"
 import DatosTotal from "./datosTotal"
 import { Route, Routes } from "react-router-dom"
+import styles from '../styles/container.module.css'
 
 const Container = () => {
     return (
-        <div>
+        <div className={styles.container}>
             <ServicesProduct></ServicesProduct>
             <Routes>
                 <Route path="/" element={ <Menu />} />
